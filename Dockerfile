@@ -1,4 +1,4 @@
-FROM python:slim-3.9
+FROM python:3.9-slim
 WORKDIR /app
 COPY requirement.txt .
 RUN pip install -r requirement.txt
